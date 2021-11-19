@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    
     <div class="nav">
         <div class="logo">
             <a class="navbar-brand">
@@ -27,10 +28,10 @@
         </ul>
         <!-- Dropdown  -->
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Zostavy</a>
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Portfolio</a>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Programatorske</a></li>
-                <li><a class="dropdown-item" href="#">Herne</a></li>
+                <li><a class="dropdown-item" href="herne.html">Herne</a></li>
                 <li><a class="dropdown-item" href="#">Tvorenie videi</a></li>
             </ul>
         </li>
@@ -38,42 +39,48 @@
 
     <div class="contact-section">
         <h1 style="text-align: center;">Contact Us</h1>
-
-
     </div>
 
-    <!-- mapa a formular s tlacidlom v JS-->
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <img src="./images/mapa.jpg" style="width:100%">
-            </div>
+    <!-- mapa a formular s tlacidlom v JS ktore je nastilovane v css pod nazvom button...-->
+    <div class="float-container">
+        <div class="float-child">
+            <img src="./images/map.jpg" alt="map" style="width: 100%; height: auto; ">
+        </div>
+        <div class="float-child">
             <label form="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label form="subject">o com sa chcete prist porozpravat</label>
+            <label form="subject">Your Questions</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
             <button onclick="myFunction()">Sumbit</button>
-
-            <p id="btn"></p>
-            <!-- JS na tlacidlo ktore mi napise pod submit ze som kontaktoval a da alert na obrazvku -->
-            <!-- tuto by som chcel za bonusovy bod-->
-            <script>
-                function myFunction() {
-                    var txt;
-                    var r = confirm("Thanks for contact us!");
-                    if (r == true) {                        // ak som klikol na confirm tak mi to vypise pod submit You have successfully contacted us!
-                        txt = "You have successfully contacted us!";
-                    } else {
-                        txt = "You pressed Cancel!"; // ak som klikol na cancel tak mi vypise pod submit You pressed Cancel!
-                    }
-                    document.getElementById("btn").innerHTML = txt; // tuto mi to vypise
-                }
-            </script>
-
         </div>
     </div>
+
+
+    <!-- JS na tlacidlo ktore mi napise pod submit ze som kontaktoval a da alert na obrazvku -->
+    <!-- tuto by som chcel za bonusovy bod-->
+    <p id="btn"></p>
+
+    <script>
+        function myFunction() {
+            var txt;
+            var r = confirm("Thanks for contact us!");
+            if (r == true) {                        // ak som klikol na confirm tak mi to vypise pod submit You have successfully contacted us!
+                txt = "You have successfully contacted us!";
+            } else {
+                txt = "You pressed Cancel!"; // ak som klikol na cancel tak mi vypise pod submit You pressed Cancel!
+            }
+            document.getElementById("btn").innerHTML = txt; // tuto mi to vypise
+        }
+    </script>
+
+
+
+
+
+
+
 
 
 </body>
