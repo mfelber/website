@@ -34,43 +34,41 @@
 }
 /* koniec navbar*/  
 
-/* banner*/  
-.top-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/enginer1.jpg");
-  background-repeat: no-repeat;  
-  background-size: cover;
-  background-position: center;
-  height: 850px;
-  
-  
+
+/* Carousel*/ 
+.carousel-item1 {
+  height: 50rem;
+ 
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
-.banner-text {
-  text-align: center;
+.container1 {
+ position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+      
+.overlay-image1{
   position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: Arial, Helvetica, sans-serif
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top:0;
+  background-position: center;
+  background-size: cover; 
 }
+/* koniec carousel*/  
+/* koniec index.html*/ 
 
-.banner-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
 
-.banner-text button:hover {
-  background-color: #555;
-  color: white;
-}
-/* koniec bannera*/ /* koniec index.html*/ 
+
+
+
+
 
 /* contactus.html*/
 .contact-section {
@@ -140,6 +138,8 @@ button[onclick="myFunction()"]:hover {
 }
 
 
+/* zaciatom portfolia*/ 
+
 .grid-container {
   display: grid;
   grid-column-gap: 20px;
@@ -147,7 +147,6 @@ button[onclick="myFunction()"]:hover {
  padding: 50px;
   
 }
-
 
 
 .grid-item {

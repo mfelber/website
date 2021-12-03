@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- responzivnost stranky -->
     <link rel="stylesheet" href="style.css"> <!-- styly stranky -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">  <!--  aby fungoval dropdown-->   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>  <!--  aby fungoval dropdown-->   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--  aby fungoval dropdown-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--  aby fungoval dropdown-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Pc Zostavy</title> <!-- nazov -->
     <link rel="icon" type="image/x-icon" href="./images/favicon.png"> <!-- male logo v rohu v karte -->
 </head>
@@ -16,7 +20,7 @@
 
     <div class="nav">
         <div class="logo">
-            <a href="index.html"><img src="./images/logo.jpg" alt="Logo" style="width:100px;"></a> <!-- logo firmy -->            
+            <a href="index.html"><img src="./images/logo.jpg" alt="Logo" style="width:100px;"></a> <!-- logo firmy -->
         </div>
         <ul>
             <li><a href="contacts.html">Kontakt</a></li>
@@ -34,19 +38,82 @@
 
     </div>
 
-    <!-- banner -->
-    <div class="top-banner">
-        <div class="banner-text">
-            <h1 style="font-size: 50;">najlepsie pc zostavy</h1>
-            <h3>Precitajte si o nas</h3>
-            <form action="about.html">
-                <button>Zisti viac</button>
-            </form>
+<div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+            
+            
+            
+            <div class="carousel-item active" data-bs-interval="5000">
+            <div class="overlay-image" style="background-image:url(./images/team.jpg)"> </div>
+              <div class="container">
+                  <h1>Náš tím</h1>
+                  <p>Prečitajte si o nás</p>
+                  <a href="about.html" class="btn btn-lg btn-primary">
+                     Čítať 
+                  </a>
+              </div>
+            </div>
+                   
+            <div class="carousel-item" data-bs-interval="2500">
+                <div class="overlay-image" style="background-image:url(./images/contact.jpg)"> </div>
+                <div class="container">
+                    <h1>Kontaktujte nás</h1>
+                    <p>0917 443 322 <br>
+                        alebo cez formulár</p>
+                    <a href="contacts.html" class="btn btn-lg btn-primary">
+                       Kontakt 
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <div class="overlay-image" style="background-image:url(./images/location.jpg)"> </div>
+                <div class="container">
+                    <h1>Neviete kde nás nájdete?</h1>                    
+                    <a href="contacts.html" class="btn btn-lg btn-primary">
+                       Mapa
+                    </a>
+                </div>
+              </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- banner -->
+    <!-- <div class="top-banner">
+    <div class="banner-text">
+        <h1 style="font-size: 50;">najlepsie pc zostavy</h1>
+        <h3>Precitajte si o nas</h3>
+        <form action="about.html">
+            <button>Zisti viac</button>
+        </form>
+    </div>
+</div> -->
+
+
+
 
 
 </body>
