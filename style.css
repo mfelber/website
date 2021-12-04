@@ -5,40 +5,43 @@
 
 /* index.html*/ /* navbar*/    
 .logo{
+  background-color:#5d89ba;
 }
-
+.nav{
+  background-color: #5d89ba;
+}
 .nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: white;
+  background-color:#5d89ba ;
+ 
 }
 
 .nav li {
   float: left;
+  
 }
 
 .nav li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding:  20px 20px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .nav a:hover{
-  background-color: #023068;
-  color: white;  
+  color: black;  
 }
 /* koniec navbar*/  
 
-
 /* Carousel*/ 
 .carousel-item {
-  height: 50rem;
- 
+  height: 50rem; 
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
@@ -67,18 +70,20 @@
 
 
 
+.hr1{
+  width: 80%;  
+  height: 2px;  
+  background-color: black;  
+  margin-bottom: 7px;  
+  margin-right: auto;  
+  margin-left: auto;  
+  margin-top: 9px;  
+  border-width: 4px;  
 
-
-
-/* contactus.html*/
-.contact-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #023068;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif
-  
 }
+
+
+
 
 /* ako vyzera text a text area */
 input[type=text], select, textarea {
@@ -128,14 +133,7 @@ button[onclick="myFunction()"]:hover {
 
 
 
-/* about.html*/ 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #023068;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif
-}
+
 
 
 /* zaciatom portfolia*/ 
