@@ -37,6 +37,9 @@
 .nav a:hover{
   color: black;  
 }
+
+
+
 /* koniec navbar*/  
 
 /* Carousel*/ 
@@ -162,3 +165,70 @@ button[onclick="myFunction()"]:hover {
   }
 
 
+
+/* koniec portfolia*/ 
+
+
+/* o nas*/ 
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 2);
+}
+
+
+.text1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 2);
+}
+
+
+.text2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 190%);
+  width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 2);
+}
+
+
+
+
+
+.p{
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.h1{
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 30px;
+}
+
+.title {
+  color: grey;
+}
