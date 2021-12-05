@@ -129,7 +129,10 @@ button[onclick="myFunction()"]:hover {
 .float-container {
   border: 3px solid white;
   padding: 20px;
-  
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 }
 
 .float-child {
@@ -137,6 +140,16 @@ button[onclick="myFunction()"]:hover {
   float: left;
   padding: 20px;
 }  
+
+.float-child img {
+  width: 100%;
+}
+
+.float-container::after {
+  content: "";
+  clear: both;
+  display: block;
+}
 
 /* responzivita mapy a formulara ked je sirka mensia ako 600px  */
 @media screen and (max-width: 600px) {
@@ -154,7 +167,6 @@ button[onclick="myFunction()"]:hover {
 /* responzivita portfolia*/ 
 
 @media screen and (min-width: 600px) {
-
   .layout-row {
     width: auto;
     margin-left: auto;
@@ -328,7 +340,7 @@ button[onclick="myFunction()"]:hover {
 
 .footer{
   padding: 40px 0;
-  background-color: red;
+  background-color: white;
   
 }
 
@@ -387,3 +399,4 @@ button[onclick="myFunction()"]:hover {
   font-size: 13px;
   color: #aaa;
 }
+
